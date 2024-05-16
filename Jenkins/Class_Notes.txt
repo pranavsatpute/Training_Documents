@@ -419,6 +419,7 @@ su - devopsadmin
 
 #for Ubuntu ::
 ssh-keygen -t rsa -b 1024 -m PEM
+ssh-keygen -t ecdsa -b 521
 
 
 ls ~/.ssh 
